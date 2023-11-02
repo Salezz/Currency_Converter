@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Tilt+Neon&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link type="image/png" sizes="96x96" rel="icon" href="static/img/icons8-saco-de-dinheiro-50.png">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="CardApp">
+        <img class="logo" height="100" src="https://img.icons8.com/bubbles/100/cash.png" alt="cash"/>
+        <div class="title">
+            <h1>Currency Converter</h1>
+        </div>
+            <div name='result' class="Result">
+               <p>
+                 {{ result_format }}
+               </p>
+            </div>
+            <div class="container text-center">
+                <form action="/convert" method="get">
+                <div class="row">
+                    <div class="col">
+                        <h2>From: </h2>
+                <select name="formSelectFrom" aria-label="Small select">
+                <option selected >Select Currency</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="BRL">BRL</option>
+                <option value="JPY">JPY</option>
+                <option value="CAD">CAD</option>
+                <option value="AUD">AUD</option>
+                <option value="CNY">CNY</option>
+                </select>
+                </div>
+                <div class="col">
+                    <input name='userinput' type="text" class="form" placeholder="Inform a Value">
+                    <button class="btn" type="submit" action="/convert">Convert</button>
+                </div>
+                <div class="col">
+                    <h2>To: </h2>
+                    <select name="formSelectTo" aria-label="Small select" >
+                        <option  selected>Select Currency</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="BRL">BRL</option>
+                        <option value="JPY">JPY</option>
+                        <option value="CAD">CAD</option>
+                        <option value="AUD">AUD</option>
+                        <option value="CNY">CNY</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body {
+    background-color: #FCF5ED;
+}
+
+.CardApp{
+    width: 60%;
+    height: 80vh;
+    background-color: #F4BF96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+
+.CardApp{
+    background-color: #ce5a68e8;
+    color: #1F1717;
+    margin: 50px auto;
+    padding: 0;
+    border-radius: 30px;
+    
+}
+
+.logo{
+    margin-bottom: 20px;
+}
+
+.Result{
+    background-color: #FCF5ED;
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 30px;
+    padding: 60px 30px;
+}
+
+h1{
+    padding: 10px;
+    font-family: 'Archivo Black', sans-serif; 
+}
+
+
+.col{
+    color: #FCF5ED;
+}
+
+.title{
+    width: 100%;
+    background-color: #FCF5ED;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    
+}
+
+.btn{
+    margin: 10px;
+    background-color: #1F1717;
+    color: #FCF5ED;
+    font-family: 'Archivo Black', sans-serif;
+    
+}
+
+.btn:hover{
+    background-color: #FCF5ED;
+    color: #1F1717;
+}
+
+.form {
+    background-color: #FCF5ED;
+    font-family: 'Archivo Black', sans-serif;
+    border-color: #CE5A67;
+    border-radius: 50PX;
+    padding: 10PX;
+    text-align: center;
+}
+
+input:focus, select:focus{
+    outline:  none;
+}
+
+select {
+    color: #1F1717;
+    background-color: #FCF5ED;
+    font-family: 'Archivo Black', sans-serif;
+    border-radius: 10px;
+}
+
+p {
+   
+    font-family: 'Archivo Black', sans-serif;
+    font-size: large;
+    text-align: center;
+    margin: 0  auto;
+}
